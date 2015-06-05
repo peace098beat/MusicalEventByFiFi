@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<!-- This site was created in Webflow. http://www.webflow.com-->
+<!-- Last Published: Mon May 12 2014 09:00:48 GMT+0000 (UTC) -->
+<html data-wf-site="537018fc1ed2d9e13c07ee24">
+<head>
+  <meta charset="utf-8">
+  <title>MusicHistory by FiFi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="Webflow">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/webflow.css">
+  <link rel="stylesheet" type="text/css" href="css/musichistory.webflow.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ["Bitter:400,700,400italic","Droid Sans:400,700","Exo:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Changa One:400,400italic","Oswald:300,400,700"]
+      }
+    });
+  </script>
+  <script type="text/javascript" src="js/modernizr.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="https://daks2k3a4ib2z.cloudfront.net/placeholder/favicon.ico">
+</head>
+<body>
+  <div>
+    <div class="w-container">
+      <div class="w-nav gnav" data-collapse="medium" data-animation="default" data-duration="400" data-contain="1">
+        <div class="w-container header">
+          <a class="w-nav-brand w-clearfix brand" href="#">
+            <img class="logo-icon" src="images/icon.svg" width="15" height="15" alt="53708c20b0eab33e05d345e2_icon.svg">
+            <div class="logo-text">Timeline of musical events</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="w-container previer-video-con" id="video-preview"></div>
+  </div>
+  <div>
+    <div class="w-container timecode">
+      <div class="w-row timecode-con">
+        <div class="w-col w-col-2">
+          <h5 class="timecode-year">2000</h5>
+        </div>
+        <div class="w-col w-col-2">
+          <h5 class="timecode-year">2003</h5>
+        </div>
+        <div class="w-col w-col-2">
+          <h5 class="timecode-year">2006</h5>
+        </div>
+        <div class="w-col w-col-2">
+          <h5 class="timecode-year">2009</h5>
+        </div>
+        <div class="w-col w-col-2">
+          <h5 class="timecode-year">2012</h5>
+        </div>
+        <div class="w-col w-col-2">
+          <h5 class="timecode-year">2015</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="w-container music-history">
+      <div class="div-junle junle-jhiphop" onclick="changeVideo(1)" data-ix="new-interaction">
+        <div class="text-junle text-jhiphop">Jpanese hiphop</div>
+      </div>
+      <div class="div-junle junle-hiphop" data-ix="new-interaction" onclick="changeVideo(2)">
+        <div class="text-junle text-hiphop">HIPHOP</div>
+      </div>
+      <div class="div-junle junle-rb" data-ix="new-interaction" onclick="changeVideo(3)">
+        <div class="text-junle text-rb">R&amp;B</div>
+      </div>
+      <div class="div-junle junle-house" data-ix="new-interaction" onclick="changeVideo(4)">
+        <div class="text-junle text-house">HOUSE</div>
+      </div>
+      <div class="div-junle junle-dubstep" data-ix="new-interaction" onclick="changeVideo(5)">
+        <div class="text-junle text-dubstep">DubStep</div>
+      </div>
+      <div class="div-junle junle-disco" data-ix="new-interaction" onclick="changeVideo(6)">
+        <div class="text-junle text-disco">Disco</div>
+      </div>
+      <div class="div-junle junle-discohouse" data-ix="new-interaction" onclick="changeVideo(7)">
+        <div class="text-junle text-discohouse">DISCO HOUSE</div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="w-container timecode">
+      <div class="w-row timecode-con">
+        <div class="w-col w-col-2">
+          <h5 class="timecode-year">2000</h5>
+        </div>
+        <div class="w-col w-col-2">
+          <h5 class="timecode-year">2003</h5>
+        </div>
+        <div class="w-col w-col-2">
+          <h5 class="timecode-year">2006</h5>
+        </div>
+        <div class="w-col w-col-2">
+          <h5 class="timecode-year">2009</h5>
+        </div>
+        <div class="w-col w-col-2">
+          <h5 class="timecode-year">2012</h5>
+        </div>
+        <div class="w-col w-col-2">
+          <h5 class="timecode-year">2015</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="w-container good-cont">
+      <div class="w-row">
+        <div class="w-col w-col-2">
+          <h5>ableton Live</h5>
+          <img src="images/ableton_live_8-1.jpg" alt="5370294b7435bb8d42e7a3e1_ableton_live_8-1.jpg" onclick="changeVideo(11)" data-ix="new-interaction-up">
+        </div>
+        <div class="w-col w-col-2">
+          <h5>Sony Acid</h5>
+          <img src="images/sujpa200001svj5n.jpg" alt="537029544c1b3c3d056e713c_sujpa200001svj5n.jpg" onclick="changeVideo(12)" data-ix="new-interaction-up">
+        </div>
+        <div class="w-col w-col-2">
+          <h5>Technics SL1200</h5>
+          <img src="images/01_02_01.jpg" alt="5370295e1999668e42b0b4d5_01_02_01.jpg" onclick="changeVideo(13)" data-ix="new-interaction-up">
+        </div>
+        <div class="w-col w-col-2">
+          <h5>Pioneer CDJ800</h5>
+          <img src="images/Pioneer-CDJ800%20DJM%20600%20Mixer.jpg" alt="537029664c1b3c3d056e713d_Pioneer-CDJ800%20DJM%20600%20Mixer.jpg" onclick="changeVideo(14)" data-ix="new-interaction-up">
+        </div>
+        <div class="w-col w-col-2">
+          <h5>Korg KaossPad</h5>
+          <img src="images/20090701180148.jpg" alt="5370296f1999668e42b0b4d7_20090701180148.jpg" onclick="changeVideo(15)" data-ix="new-interaction-up">
+        </div>
+        <div class="w-col w-col-2">
+          <h5>-</h5>
+          <img class="w-hidden-main w-hidden-medium w-hidden-small w-hidden-tiny no-img" src="https://d3e54v103j8qbb.cloudfront.net/img/image-placeholder.svg" alt="image-placeholder.svg" onclick="changeVideo(16)" data-ix="new-interaction-up">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div class="w-container footer-cont">
+      <div>2014.05.12</div>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/webflow.js"></script>
+  <!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+  <script>
+    /*!
+     * ----------------------------------------------------------------------
+     * Webflow: Front-end site library
+     * @license MIT
+     * Other scripts may access this api using an async handler:
+     *   var Webflow = Webflow || [];
+     *   Webflow.push(readyFunction);
+     * ----------------------------------------------------------------------
+     */
+    var url = [];
+    // Nitro Microphon Underground
+    // https://www.youtube.com/embed/5fdrOhWeOKc
+    url[1]="https://www.youtube.com/embed/5fdrOhWeOKc";
+    // Dr Dre ft. Snoop Dogg - Still D.R.E
+    // https://www.youtube.com/embed/uudn3Y23IYI
+    url[2]="https://www.youtube.com/embed/uudn3Y23IYI";
+    // SWV - Think You're Gonna Like It
+    // https://www.youtube.com/embed/0ldx-LLIKME
+    url[3]="https://www.youtube.com/embed/0ldx-LLIKME";
+    // Joey Negro - Make A Move On Me (Joey Negro Old School Dub)
+    // https://www.youtube.com/embed/NB4yXBNsH78
+    url[4]="https://www.youtube.com/embed/NB4yXBNsH78";
+    // UKF Skrillex
+    // https://www.youtube.com/embed/8fLkOjkMCEY
+    url[5]="https://www.youtube.com/embed/8fLkOjkMCEY";
+    // Classic 70's and 80's Disco Mix
+    // https://www.youtube.com/embed/5nGg70TB6sc
+    url[6]="https://www.youtube.com/embed/5nGg70TB6sc";
+    // Funky Tech Disco House Mix
+    // https://www.youtube.com/embed/DoRmpQvT67A
+    url[7]="https://www.youtube.com/embed/DoRmpQvT67A";
+    // ------------------
+    // SmithAgentSmith x Ableton Live x APC40
+    // https://www.youtube.com/embed/9NykjzHLbIM
+    url[11]="https://www.youtube.com/embed/9NykjzHLbIM";
+    // Making a beat with Sony Acid Pro by Hi-Fly
+    // https://www.youtube.com/embed/cKzO_F75bYo
+    url[12]="https://www.youtube.com/embed/cKzO_F75bYo";
+    // DJ Kentaro - Loop Daigakuin(Bird's-eye view Ver.)
+    // https://www.youtube.com/embed/vPutHJ4qCss
+    url[13]="https://www.youtube.com/embed/vPutHJ4qCss";
+    // CDJ-900NXS Friction Performance
+    // https://www.youtube.com/embed/g-t4M6mbWoo
+    url[14]="https://www.youtube.com/embed/g-t4M6mbWoo";
+    // MC Xander 'Sick Of The Lies'
+    // https://www.youtube.com/embed/gGWaKvllVVw?list=FLhgLzYWa_wkW32KXShRODVw
+    url[15]="https://www.youtube.com/embed/gGWaKvllVVw?list=FLhgLzYWa_wkW32KXShRODVw";
+    /*!
+     * ----------------------------------------------------------------------
+     * youtube video change function
+     * please insert html code
+     * 
+     *  <div id="video-preview">YoutbeArea</div>
+     *
+     * ----------------------------------------------------------------------
+     */
+    function changeVideo(num){
+      console.log("changeVideo()");
+      document.getElementById("video-preview").innerHTML = '<iframe width="960" height="600"  src="'+url[num]+'"></iframe>';
+    }
+  </script>
+</body>
+</html>

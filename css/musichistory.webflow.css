@@ -1,0 +1,239 @@
+body {
+  background-color: white;
+  background-image: none;
+  background-position: 0% 0%;
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+h1 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 38px;
+  line-height: 44px;
+  font-weight: 700;
+}
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+}
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 5px;
+}
+.button {
+  display: inline-block;
+  padding: 4px 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.timecode {
+  margin-bottom: 0px;
+}
+.timecode-con {
+  margin-bottom: 0px;
+  border-bottom: 1px solid #bababa;
+  font-style: italic;
+}
+.music-history {
+  margin-bottom: 20px;
+  background-color: transparent;
+}
+.div-junle {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px 10px 10px 20px;
+  border-radius: 0px 0px 0px 19px;
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(left, #e3e3e3, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(left, #e3e3e3, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(to right, #e3e3e3, rgba(255, 255, 255, 0));
+  box-shadow: none;
+  font-size: 14px;
+}
+.div-junle.junle-rb {
+  margin-left: 20%;
+}
+.div-junle.junle-rb:hover {
+  background-image: -webkit-linear-gradient(left, #ffed87, white), -webkit-linear-gradient(left, #e3e3e3, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(left, #ffed87, white), -o-linear-gradient(left, #e3e3e3, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(to right, #ffed87, white), linear-gradient(to right, #e3e3e3, rgba(255, 255, 255, 0));
+}
+.div-junle.junle-house {
+  margin-left: 30%;
+}
+.div-junle.junle-house:hover {
+  background-image: -webkit-linear-gradient(left, #ffed87, white), -webkit-linear-gradient(left, #e3e3e3, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(left, #ffed87, white), -o-linear-gradient(left, #e3e3e3, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(to right, #ffed87, white), linear-gradient(to right, #e3e3e3, rgba(255, 255, 255, 0));
+}
+.div-junle.junle-dubstep {
+  margin-left: 40%;
+}
+.div-junle.junle-dubstep:hover {
+  background-image: -webkit-linear-gradient(left, #ffed87, white), -webkit-linear-gradient(left, #e3e3e3, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(left, #ffed87, white), -o-linear-gradient(left, #e3e3e3, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(to right, #ffed87, white), linear-gradient(to right, #e3e3e3, rgba(255, 255, 255, 0));
+}
+.div-junle.junle-disco {
+  margin-left: 50%;
+}
+.div-junle.junle-disco:hover {
+  background-image: -webkit-linear-gradient(left, #ffed87, white), -webkit-linear-gradient(left, #e3e3e3, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(left, #ffed87, white), -o-linear-gradient(left, #e3e3e3, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(to right, #ffed87, white), linear-gradient(to right, #e3e3e3, rgba(255, 255, 255, 0));
+}
+.div-junle.junle-discohouse {
+  margin-left: 60%;
+}
+.div-junle.junle-discohouse:hover {
+  background-image: -webkit-linear-gradient(left, #ffed87, white), -webkit-linear-gradient(left, #e3e3e3, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(left, #ffed87, white), -o-linear-gradient(left, #e3e3e3, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(to right, #ffed87, white), linear-gradient(to right, #e3e3e3, rgba(255, 255, 255, 0));
+}
+.div-junle.junle-jhiphop:hover {
+  background-image: -webkit-linear-gradient(left, #ffed87, white), -webkit-linear-gradient(left, #e3e3e3, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(left, #ffed87, white), -o-linear-gradient(left, #e3e3e3, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(to right, #ffed87, white), linear-gradient(to right, #e3e3e3, rgba(255, 255, 255, 0));
+}
+.div-junle.junle-hiphop {
+  margin-left: 10%;
+}
+.div-junle.junle-hiphop:hover {
+  background-image: -webkit-linear-gradient(left, #ffed87, white), -webkit-linear-gradient(left, #e3e3e3, rgba(255, 255, 255, 0));
+  background-image: -o-linear-gradient(left, #ffed87, white), -o-linear-gradient(left, #e3e3e3, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(to right, #ffed87, white), linear-gradient(to right, #e3e3e3, rgba(255, 255, 255, 0));
+}
+.previer-video-con {
+  overflow-x: visible;
+  overflow-y: visible;
+  height: 600px;
+  margin-bottom: 20px;
+  background-image: -webkit-radial-gradient(circle closest-side at 51% 60%, #d6d6d6, rgba(255, 255, 255, 0));
+  background-image: -o-radial-gradient(circle closest-side at 51% 60%, #d6d6d6, rgba(255, 255, 255, 0));
+  background-image: radial-gradient(circle closest-side at 51% 60%, #d6d6d6, rgba(255, 255, 255, 0));
+  background-position: 0% 0%;
+  background-size: auto;
+}
+.text-junle {
+  font-family: Bitter, serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.text-junle.text-jhiphop {
+  font-size: 15px;
+  font-weight: 600;
+}
+.text-junle.text-hiphop {
+  font-size: 17px;
+  font-weight: 600;
+}
+.text-junle.text-rb {
+  font-family:'Droid Sans', sans-serif;
+  font-weight: 700;
+}
+.text-junle.text-house {
+  font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, sans-serif;
+}
+.text-junle.text-dubstep {
+  font-family: Exo, sans-serif;
+  font-weight: 600;
+}
+.text-junle.text-disco {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 700;
+}
+.text-junle.text-discohouse {
+  font-family:'Changa One', Impact, sans-serif;
+  font-style: italic;
+  font-weight: 400;
+}
+.footer-cont {
+  padding-right: 10px;
+  background-color: #fcfcfc;
+  text-align: right;
+}
+.good-cont {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #bababa;
+}
+.header {
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.gnav {
+  background-color: transparent;
+}
+.logo-icon {
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+.brand {
+  width: 289px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.logo-text {
+  padding-left: 26px;
+  font-family: Oswald, sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+}
+html.w-mod-js *[data-ix="new-interaction"] {
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  -o-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+html.w-mod-js *[data-ix="new-interaction-up"] {
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  -o-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+@media (max-width: 991px) {
+}
+@media (max-width: 767px) {
+}
+@media (max-width: 479px) {
+}
